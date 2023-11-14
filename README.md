@@ -19,7 +19,7 @@ Esta aplicação web permite ao usuário gerenciar suas tarefas em uma lista de 
 
 1. Clone o repositório.
 2. Execute a aplicação Spring Boot.
-3. Abra o navegador e acesse http://localhost:8080/tasks.
+3. Abra o navegador e acesse http://localhost:8081
 
 ## Detalhes Técnicos
 
