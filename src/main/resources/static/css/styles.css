@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333; 
+    color: #333;
 }
 
 div {
@@ -26,7 +26,7 @@ label {
 input[type="text"] {
     padding: 8px;
     margin: 4px;
-    width: 60%; 
+    width: 60%;
 }
 
 button {
@@ -55,7 +55,7 @@ li {
 }
 
 footer {
-    background-color: #333; 
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
@@ -63,3 +63,52 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+/* 
+Body
+
+background-color: Define a cor de fundo para um tom de cinza claro.
+font-family: Define a família de fontes principal como Arial ou fontes sans-serif.
+margin e padding: Zerados para remover margens e preenchimentos padrão.
+============================
+h1
+
+text-align: Centraliza o texto no cabeçalho.
+color: Define a cor do texto como um tom de cinza escuro.
+============================
+Div
+
+text-align: Centraliza o conteúdo dentro da div.
+margin: Adiciona margem ao redor da div.
+display e flex-direction: Configuram a div como um contêiner de layout flexível, com direção de coluna.
+align-items: Centraliza os itens ao longo do eixo transversal (vertical).
+============================
+Label e Input
+
+font-weight: Define o peso da fonte para negrito.
+margin-bottom: Adiciona margem na parte inferior do rótulo.
+padding, margin, width: Estilos para a entrada de texto, proporcionando algum espaço e largura definida.
+============================
+Button
+
+Estiliza o botão de adição de tarefa com uma cor de fundo verde (#4caf50), texto branco e alguns estilos adicionais.
+=============================
+ul e li
+
+list-style-type: Remove os marcadores de lista padrão.
+padding e margin: Ajustes na lista para adicionar algum espaço.
+
+.completed
+
+Estiliza tarefas concluídas com uma linha através do texto (text-decoration: line-through) e uma cor de texto cinza escuro (#777).
+============================
+
+Footer
+background-color: Define a cor de fundo para um tom de cinza escuro.
+color: Define a cor do texto como branco.
+text-align: Centraliza o texto no rodapé.
+padding: Adiciona algum preenchimento ao rodapé.
+position, bottom, width: Fixa o rodapé na parte inferior da página e define a largura como 100%. 
+============================
+*/
